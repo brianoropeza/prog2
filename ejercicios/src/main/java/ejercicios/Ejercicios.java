@@ -9,8 +9,9 @@ package ejercicios;
  * @author Equipo
  */
 public class Ejercicios {
+    suma=0;
+    int num1 ,num2; 
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+    suma= num1+num2;
+    return suma;
 }
