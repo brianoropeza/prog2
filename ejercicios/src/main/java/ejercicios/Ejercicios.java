@@ -9,6 +9,5 @@ package ejercicios;
  * @author Equipo
  */
 public class Ejercicios {
-    int num1 ,num2; 
     
 }
