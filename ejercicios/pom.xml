@@ -19,4 +19,5 @@
         <maven.compiler.target>20</maven.compiler.target>
         <exec.mainClass>ejercicios.Ejercicios</exec.mainClass>
     </properties>
+    <name>programacion2</name>
 </project>
