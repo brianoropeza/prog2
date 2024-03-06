@@ -10,16 +10,14 @@ package cine;
  */
 public class boleto {
     private pelicula pelicula;
-    private sala sala;
-    private funcion funcion;
+    private silla silla;
 
     public boleto() {
     }
 
-    public boleto(pelicula pelicula, sala sala, funcion funcion) {
+    public boleto(pelicula pelicula, silla silla) {
         this.pelicula = pelicula;
-        this.sala = sala;
-        this.funcion = funcion;
+        this.silla = silla;
     }
 
     public pelicula getPelicula() {
@@ -30,25 +28,17 @@ public class boleto {
         this.pelicula = pelicula;
     }
 
-    public sala getSala() {
-        return sala;
+    public silla getSilla() {
+        return silla;
     }
 
-    public void setSala(sala sala) {
-        this.sala = sala;
-    }
-
-    public funcion getFuncion() {
-        return funcion;
-    }
-
-    public void setFuncion(funcion funcion) {
-        this.funcion = funcion;
+    public void setSilla(silla silla) {
+        this.silla = silla;
     }
 
     @Override
     public String toString() {
-        return "boleto{" + "pelicula=" + pelicula + ", sala=" + sala + ", funcion=" + funcion + '}';
+        return "boleto{" + "pelicula=" + pelicula + ", silla=" + silla + '}';
     }
     
     
